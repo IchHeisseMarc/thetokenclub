@@ -1,4 +1,14 @@
 @charset "UTF-8";
 
+hr.divider.hasMargin {
+    margin-top: 25%;
+    
+}
 
+.hasMarginBottom{
+    margin-bottom: 10%;
+}
   
+.has-padding-top {
+    padding-top: 5rem;
+}
