@@ -38,5 +38,9 @@ hr.divider.hasMargin {
 
   .countdown-text {
       font-size: xx-large;
-      color:lightgray
+      color:lightgray;
+  }
+
+  .golden{
+    color: gold
   }
