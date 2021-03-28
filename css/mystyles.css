@@ -44,3 +44,7 @@ hr.divider.hasMargin {
   .golden{
     color: gold
   }
+
+  .carousel-description {
+    padding-top: 5rem;
+  }
