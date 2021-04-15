@@ -57,6 +57,7 @@ hr.divider.hasMargin {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    color:rgb(211, 211, 211)
   }
 
   .sexy_line { 
