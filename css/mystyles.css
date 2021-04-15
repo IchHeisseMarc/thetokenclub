@@ -48,3 +48,20 @@ hr.divider.hasMargin {
   .carousel-description {
     padding-top: 5rem;
   }
+
+  .collection-teaser {
+    width: -webkit-fill-available;
+  }
+
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  .sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: gold;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, gold));
+}

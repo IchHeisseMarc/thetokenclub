@@ -1,4 +1,4 @@
-var countDownDate = new Date("Apr 11, 2021 23:59:59").getTime();
+var countDownDate = new Date("Apr 15, 2021 23:59:59").getTime();
             var x = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
@@ -12,6 +12,6 @@ var countDownDate = new Date("Apr 11, 2021 23:59:59").getTime();
 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "You are too late :( Come back for the next collection!";
+                document.getElementById("demo").innerHTML = "Check OpenSea.io for more!";
                 }
             }, 1000);
