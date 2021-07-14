@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+
+body {
+  
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.content {
+  max-width: 50vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content div {
+  margin-bottom: 30px;
+}
+
+.nes-container.with-image {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.with-image img {
+  width: 20%;
+  height: auto;
+  padding: 5px
+}
+
+h1, h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Press Start 2P";
+}
+
+.drop {
+  text-align: center;
+}
+
+.nes-table td, .nes-table th {
+  text-align: center;
+}
+
+.navbar-brand {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
