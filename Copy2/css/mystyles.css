@@ -1,0 +1,69 @@
+
+@charset "UTF-8";
+
+hr.divider.hasMargin {
+    margin-top: 25%;
+    
+}
+
+.hasMarginBottom{
+    margin-bottom: 10%;
+}
+  
+.has-padding-top {
+    padding-top: 5rem;
+}
+
+.countdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid black;
+  }
+  
+  .countdown .day, .countdown .hour, .countdown .min, .countdown .sec {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .countdown .day .num, .countdown .hour .num, .countdown .min .num, .countdown .sec .num {
+    display: block;
+    font-size: 40px;
+  }
+  
+  .countdown .day .word, .countdown .hour .word, .countdown .min .word, .countdown .sec .word {
+    display: block;
+    font-size: 20px;
+  }
+
+  .countdown-text {
+      font-size: xx-large;
+      color:lightgray;
+  }
+
+  .golden{
+    color: gold
+  }
+
+  .carousel-description {
+    padding-top: 5rem;
+  }
+
+  .collection-teaser {
+    width: -webkit-fill-available;
+  }
+
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    color:rgb(211, 211, 211)
+  }
+
+  .sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: gold;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, gold));
+}
