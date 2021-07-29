@@ -29,6 +29,21 @@ html, body, pre, code, kbd, samp, a{
   width: 20%;
 }
 
+.image-container .six-line img {
+  padding: 5px;
+  width: 15%;
+}
+
+.image-container-auto-width {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container-auto-width img {
+  padding: 5px;
+  width: auto;
+}
+
 .tiers{
   display: flex;
   justify-content: space-between;
