@@ -33,7 +33,6 @@ html, body, pre, code, kbd, samp, a{
 .image-container img {
   padding: 5px;
   width: 20%;
-  z-index: 1;
 }
 
 .image-container .six-line img {
