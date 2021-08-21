@@ -17,6 +17,12 @@ html, body, pre, code, kbd, samp, a{
   justify-content: space-between;
 }
 
+#sold {
+  background: url(img/sold.png) no-repeat center;
+  z-index: 2;
+  background-blend-mode: multiply;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -27,6 +33,7 @@ html, body, pre, code, kbd, samp, a{
 .image-container img {
   padding: 5px;
   width: 20%;
+  z-index: 1;
 }
 
 .image-container .six-line img {
